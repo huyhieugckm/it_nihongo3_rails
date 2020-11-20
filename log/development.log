@@ -153,3 +153,31 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 144ms (Views: 111.1ms | ActiveRecord: 0.7ms | Allocations: 22912)
 
 
+Started GET "/" for 1.55.245.69 at 2020-11-20 03:47:58 +0000
+Cannot render console from 1.55.245.69! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.9ms | Allocations: 316)
+Completed 200 OK in 20ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 1734)
+
+
+Started GET "/" for 1.55.245.69 at 2020-11-20 03:48:00 +0000
+Cannot render console from 1.55.245.69! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.0ms | Allocations: 192)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 1857)
+
+
+Started GET "/users/sign_in" for 1.55.245.69 at 2020-11-20 03:48:15 +0000
+Cannot render console from 1.55.245.69! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 646)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 17.4ms | Allocations: 5471)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 75ms (Views: 44.1ms | ActiveRecord: 1.9ms | Allocations: 19178)
+
+
